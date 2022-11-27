@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Onclick</title>
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <header>
+        <nav>
+            <h1 class="title">Dojonary</h1>
+            <input class="search" type="text" placeholder="Search" />
+            <button class="login" onclick="login(this)">Login</button>
+        </nav>
+    </header>
+
+    <!--Cuerpo-->
+    <main>
+        <article>
+            <div class="card">
+                <div class="card-content-1">
+                    <h2>ninja</h2>
+                    <em>noun</em>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button class="btn-likes" onclick="like()">
+                        13 likes
+                    </button>
+                </div>
+                <div class="card-content-2">
+                    <p>
+                        A practitioner skilled in the <a href="#">Japanesse</a> art of
+                        <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content-1">
+                    <h2>ninja</h2>
+                    <em>noun</em>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button class="btn-likes" onclick="like()">
+                        37 likes
+                    </button>
+                </div>
+                <div class="card-content-2">
+                    <p>
+                        A <a href="#">programmer</a> who breaks down problems with
+                        <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="defination-container">
+                <h2>Dojonaty is defined by YOU</h2>
+                <button onclick="removeElem(this)">Add Defination</button>
+            </div>
+        </section>
+    </main>
+<script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Barra de navegación*/
+header{
+    margin: 0 100px 0 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    align-items: center;
+    height: 50px;
+}
+.search{
+    width: 300px;
+    height: 20px;
+}
+.login{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+/*==Cuerpo==*/
+/*Columna 1*/
+main{
+    display: flex;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 100px;
+}
+.card-content-1,.card-content-2{
+    margin: 20px;
+}
+.btn-likes{
+    margin-top: 10px;
+    background-color: orange;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 2px 2px black;
+}
+
+/*Section column 2*/
+section{
+    display: flex;
+    flex: 1;
+}
+.defination-container{
+    border: 1px solid black;
+    margin: 20px 0 20px 20px;
+    height: 110px;
+    padding: 20px 10px 0 10px;
+}
+.defination-container button{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 2px 2px black;
+}
